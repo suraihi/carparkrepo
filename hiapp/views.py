@@ -4,8 +4,15 @@ from django.http import HttpResponse
 # Create your views here.
 
 import random
+import time
 
+num = "temp = 10"
 
-num = random.random()
 def home_view(*args, **kwargs):
+
+
+
 	return HttpResponse(num)
+	
+	
+
